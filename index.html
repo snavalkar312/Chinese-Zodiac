@@ -1,0 +1,157 @@
+<html>
+  <head>
+    <title>CHINESE ZODIAC</title>
+  <script>
+
+  function getCreature()
+  {
+
+
+    var year = document.getElementById('msg').value;
+    year = parseInt(year);
+
+    if(year % 12 == 0)
+    {
+      var Monkey = "<img src = 'monkey.jpg' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Monkey;
+    }
+
+
+
+
+    if(year % 12 == 1)
+    {
+      var Rooster = "<img src = 'rooster.jpg' height = '100px' width = 100px'>";
+      document.getElementById("out").innerHTML = Rooster;
+    }
+
+
+
+    if(year % 12 == 2)
+    {
+      var Dog = "<img src = 'dog.jpg' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Dog;
+    }
+
+
+
+
+
+    if(year % 12 == 3)
+    {
+      var Pig = "<img src = 'pig.png' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Pig;
+    }
+
+
+
+
+
+
+
+    if(year % 12 == 4)
+    {
+      var Rat = "<img src = 'rat.jpg' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Rat;
+    }
+
+
+
+
+
+
+    if(year % 12 == 5)
+    {
+      var Ox = "<img src = 'ox.png' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Ox;
+    }
+
+
+
+
+
+      if(year % 12 == 6)
+    {
+      var Tiger = "<img src = 'tiger.jpg' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Tiger;
+    }
+
+
+
+
+
+    if(year % 12 == 7)
+    {
+      var Rabbit = "<img src = 'rabbit.jpg' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Rabbit;
+    }
+
+
+
+
+
+
+      if(year % 12 == 8)
+    {
+      var Dragon = "<img src = 'dragon.jpg' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Dragon;
+    }
+
+
+
+
+    if(year % 12 == 9)
+
+    {
+      var Snake = "<img src = 'snake.jpg' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Snake;
+    }
+
+
+
+    if(year % 12 == 10)
+
+    {
+      var Horse = "<img src = 'horse.jpg' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Horse;
+    }
+
+
+
+    if(year % 12 == 11)
+    {
+      var Goat = "<img src = 'goat.jpg' height = '100px' width = '100px'>";
+      document.getElementById("out").innerHTML = Goat;
+    }
+
+
+
+  }
+    </script>
+    <style>
+
+     body {
+        background-color: red;
+      }
+     h1 {
+       text-align: center;
+       background-color: white;
+     }
+     div{
+        text-align: center;
+     }
+   </style>
+  </head>
+  <body>
+
+<hr>
+<h1>CHINESE ZODIAC</h1>
+<hr>
+  <div>
+    <input id = "msg" type = "text">
+  <input type = "button" value = "Send" onclick = "getCreature()">
+  <br>
+  <span id = "out"></span>
+  </div>
+  </body>
+</html>
